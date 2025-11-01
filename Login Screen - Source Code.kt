@@ -148,7 +148,7 @@ class MainActivity : ComponentActivity() {
 
 
 
-@Preview
+
 @Composable
 fun LoginScreen() {
 
@@ -203,7 +203,7 @@ fun LoginScreen() {
                         Image(
                             painter = painterResource(id = R.drawable.img1),
                             contentDescription = "profile",
-                            contentScale = ContentScale.Fit
+                            contentScale = ContentScale.Crop
                         )
                         // Ensure you add your image to your 'drawable' folder
 
